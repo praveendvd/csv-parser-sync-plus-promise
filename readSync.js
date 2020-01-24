@@ -27,8 +27,8 @@ console.log(path1)
 
 
 readCsvSync:function (path1) {
-  let testdata=this.readCsvPromise(path1).then()
-  testdata.then(function(b){testdata=b});
+  let testdata=this.readCsvPromise(path1)
+  testdata.then(function(b){testdata=b}).catch(function(c){ console.error(c); process.exit(222)});
   while(typeof testdata.then === 'function'){
     sleep(1)
   }
