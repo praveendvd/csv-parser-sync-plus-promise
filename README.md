@@ -30,7 +30,7 @@ now read any csv synchronously or as promise. Choice is yours
 
 		let b=parser.readCsvPromise('<filepath>')
 
-		**Note:** You should provide fully qualified path for <filepath>
+		**Note:** You can use both fully qualified and relative paths <filepath>
 
 #### Errors
 
