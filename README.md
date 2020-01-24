@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ###Description:
 
 ### csv-parser-sync-plus-promise
@@ -12,14 +12,13 @@ now read any csv synchronously or as promise. Choice is yours
 
 ### Usage
 
-=======
-# csv-parser-sync-plus-promise
+### csv-parser-sync-plus-promise
 
 Source code for csv parser sync and promise
 
 
-# Usage 
->>>>>>> 3492e6cc2ac857d9a556a762ddf73776d9b368f9
+### Usage 
+
 		let parser = require('csv-parser-sync-plus-promise')
 // for sync
 
@@ -28,11 +27,5 @@ Source code for csv parser sync and promise
 // for promise
 
 		let b=parser.readCsvPromise('<filepath>')
-<<<<<<< HEAD
 
 
-
-
-
-=======
->>>>>>> 3492e6cc2ac857d9a556a762ddf73776d9b368f9
