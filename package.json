@@ -1,6 +1,6 @@
 {
   "name": "csv-parser-sync-plus-promise",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "parse any csv synchronously or as promise",
   "main": "readSync.js",
   "scripts": {
