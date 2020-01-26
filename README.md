@@ -1,5 +1,5 @@
 
-###Description:
+### Description:
 
 
 ### csv-parser-sync-plus-promise
@@ -22,15 +22,16 @@ now read any csv synchronously or as promise. Choice is yours
 
 		let parser = require('csv-parser-sync-plus-promise')
 
-// for sync
+## for use as sync
 
 		let a=parser.readCsvSync('<filepath>')
 
-// for promise
+## for use as promise
 
 		let b=parser.readCsvPromise('<filepath>')
 
-		**Note:** You can use both fully qualified and relative paths <filepath>
+
+**Note:** You can use both fully qualified and relative paths <filepath>
 
 #### Errors
 
