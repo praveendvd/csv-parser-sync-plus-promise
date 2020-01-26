@@ -1,4 +1,5 @@
 
+
 ### Description:
 
 
@@ -19,6 +20,18 @@ This npm csv parser reads csv files synchronously or as a promise to an array
 
 Reading csv synchronously was always hectic, but now its easier and faster. 
 
+### Demo CSV:
+	a,b,c
+	1,2,3
+	1,5,6
+	2,4,6
+
+ 
+### Output Array
+
+	[ { a: '1', b: '2', c: '3' },
+	  { a: '1', b: '5', c: '6' },
+	  { a: '2', b: '4', c: '5' } ]
 
 ### Usage
 
