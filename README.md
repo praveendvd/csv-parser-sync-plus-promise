@@ -6,16 +6,18 @@
 
 
 
-A module to read csv synchronously or as promise
+A csv parser to read csv synchronously or as promise and converts it to an array of properties
 
 
 
 ### Features
 
 
-
 now read any csv synchronously or as promise. Choice is yours
 
+This npm csv parser reads csv files synchronously or as a promise to an array
+
+Reading csv synchronously was always hectic, but now its easier and faster. 
 
 
 ### Usage
